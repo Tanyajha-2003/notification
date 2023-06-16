@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="top-bar">
+        <div class="title">
+          <p class="title-text">Notifications</p>
+          <p class="num" id="num">3</p>
+        </div>
+        <a href="#" class="read" id="read">Mark all as read</a>
+      </div>
+      <div class="notifications">
+        <!--Mark Webber notification-->
+          <div class="single-box unseen">
+            <div class="avatar">
+              <img src="assets/images/avatar-mark-webber.webp"alt="Mark webber">
+            </div>
+            <div class="box-text">
+              <p class="notification">
+                <a href="#" class="name">Mark Webber</a> reacted to your recent post <a href="#" class="post" >My first tournament today!</a>
+                <span class="dot"></span>
+              </p>
+              <p class="time">In age</p>
+            </div>
+          </div>
+        <!--Mark webber notification ends-->
+         <!--Angela gray notification-->
+         <div class="single-box unseen">
+          <div class="avatar">
+            <img src="assets/images/avatar-angela-gray.webp"alt="Angela gray">
+          </div>
+          <div class="box-text">
+            <p class="notification">
+              <a href="#" class="name">Angela Gray</a>followed you
+              <span class="dot"></span>
+            </p>
+            <p class="time">In age</p>
+          </div>
+        </div>
+      <!--Angea gray notification ends-->
+      <!-- Jacob Thompson notification-->
+  <div class="single-box unseen">
+    <div class="avatar">
+      <img src="assets/images/avatar-jacob-thompson.webp"alt="Jacob thompson">
+    </div>
+    <div class="box-text">
+      <p class="notification">
+        <a href="#" class="name"> Jacob Thompson</a> has joined your group <a href="#" class="post">Chess Club</a>
+        <span class="dot"></span>
+        
+      </p>
+      <p class="time">2 weeks ago</p>
+    </div>
+  </div>
+<!-- Jacob Thompson notification ends-->
+       <!--Rizky hasanuddin notification-->
+       <div class="single-box">
+        <div class="avatar">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp"alt="Rizky hasanuddin">
+        </div>
+        <div class="box-text">
+          <p class="notification">
+            <a href="#" class="name">Rizky Hasanuddin</a>sent you a private message 
+          </p>
+          <p class="time">5 days ago</p>
+          <div class="message">
+            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+    <!--Rizky hasanuddin notification ends-->
+    <!--Kimberly Smith notification starts-->
+    <div class="single-box comment">
+      <div class="left">
+        <div class="avatar">
+        <img src="assets/images/avatar-kimberly-smith.webp"alt="kimberly Smith">
+      </div>
+      <div class="box-text">
+        <p class="notification">
+          <a href="#" class="name">Kimberly Smith</a>commented on your picture 
+        </p>
+        <p class="time">1 week ago</p>
+        </div>
+        </div>
+        <div class="img-box">
+          <img src="assets/images/image-chess.webp" alt="">
+        </div>
+      </div>
+    </div>
+    <!--Kimberly Smith notification end-->
+    <!--Nathan Peterson notification-->
+    <div class="single-box">
+      <div class="avatar">
+        <img src="assets/images/avatar-nathan-peterson.webp"alt="Nathan peterson">
+      </div>
+      <div class="box-text">
+        <p class="notification">
+          <a href="#" class="name">Nathan Peterson</a>reacted to your recent post
+         <a href="#" class="post">5 end-game strategies to increase your win rate</a>
+        
+        </p>
+        <p class="time">2 weeks ago</p>
+      </div>
+    </div>
+  <!--Nathan Peterson notification ends-->
+  <!--Anna Kim notification-->
+  <div class="single-box">
+    <div class="avatar">
+      <img src="assets/images/avatar-anna-kim.webp"alt="">
+    </div>
+    <div class="box-text">
+      <p class="notification">
+        <a href="#" class="name">Anna Kim</a>fleft the group <a href="#" class="post">Chess Club</a>
+        
+      </p>
+      <p class="time">2 weeks ago</p>
+    </div>
+  </div>
+<!--Anna Kim notification ends-->
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tanya Kumari</a>.
+  </div>
+  <script src ="script.js"></script>
+</body>
+</html>
+
+
